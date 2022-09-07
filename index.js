@@ -21,9 +21,13 @@ window.onload = function () {
     function displayWeather(obj) {
         let weatherBox = document.getElementsByClassName("weather");
         let imgUrl = "https://openweathermap.org/img/wn/" + obj.weather[0].icon + ".png";
+        
+        // Capitalize first letter of weather description:
+        let weatherDescription = obj.weather[0].description;
+        weatherDescription = weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1);
         weatherBox[0].innerHTML = "<h2>" + obj.name + "</h2>" +
             "<img src=" + imgUrl + " " + "alt='weather-image'>" +
-            "<p clas='weatherType'>" + obj.weather[0].description + "</p>" +
+            "<p clas='weatherType'>" + weatherDescription + "</p>" +
             "<p class='temperature'>" + obj.main.temp + "°</p>" +
             "<p> Feels like " + obj.main.feels_like + "°</p>" +
             "<p>" + "Humidity: " + obj.main.humidity + "%" + "</p>" +
