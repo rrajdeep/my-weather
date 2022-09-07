@@ -1,8 +1,7 @@
 body {
-text-align: center;
-margin: 0 20px 0 10px;
+    text-align: center;
+    margin: 0 20px 0 10px;
 }
-
 
 .navbar {
     padding: 32px;
@@ -11,6 +10,7 @@ margin: 0 20px 0 10px;
     justify-content: space-between;
     text-align: left;
 }
+
 .top {
     font-family: Helvetica, sans-serif;
     color: rgb(255, 255, 255);
@@ -26,12 +26,11 @@ margin: 0 20px 0 10px;
     border-left: 1px solid black;
     padding: 30px;
     background-image: linear-gradient(to right top,
-        #dfe6e9,
-        #c2f0f4
-      );
+            #dfe6e9,
+            #c2f0f4);
 }
 
-.city {
+.weather {
     border: 1px solid black;
     border-radius: 16px;
     padding: 32px;
