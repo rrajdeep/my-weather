@@ -32,6 +32,6 @@ window.onload = function () {
             "<p class='temperature'>" + obj.main.temp + "°</p>" +
             "<p> Feels like " + obj.main.feels_like + "°</p>" +
             "<p>" + "Humidity: " + obj.main.humidity + "%" + "</p>" +
-            "<p>" + "Wind Speed: " + obj.wind.speed + "MPH" + "</p>";
+            "<p>" + "Wind Speed: " + obj.wind.speed + " MPH" + "</p>";
     }
 }
