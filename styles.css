@@ -19,11 +19,13 @@ body {
 }
 
 #search-box {
+    border-left: 1px solid black;
     padding: 15px 32px;
 }
 
 #weather-box {
     border-left: 1px solid black;
+    border-right: 1px solid black;
     padding: 30px;
     background-image: linear-gradient(to right top,
             #dfe6e9,
@@ -49,6 +51,7 @@ body {
 }
 
 .footer {
+    border: 1px solid black;
     padding: 30px;
     text-align: center;
     background-color: rgb(28, 167, 167);
