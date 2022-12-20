@@ -50,6 +50,22 @@ body {
     font-weight: bold;
 }
 
+.forecast-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.wf-box {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
 .footer {
     border: 1px solid black;
     padding: 30px;
