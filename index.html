@@ -28,7 +28,7 @@
       <div id="search-box" class="col-lg-3">
         <h2>Search for a city:</h2>
         <div class="input-group mb-3">
-          <input id="search-input" class="form-control" type="text" value="" placeholder="Enter city name">
+          <input id="search-input" class="form-control" type="text" placeholder="Enter city name">
           <div class="input-group-append">
             <button id="search-button" class="btn btn-outline-secondary" type="button">
               <i class="fas fa-search"></i>
@@ -38,6 +38,16 @@
       </div>
       <div id="weather-box" class="col-lg-9">
         <div class="weather"></div>
+        <div>
+          <h2>Five Day Forecast:</h2>
+        </div>
+        <div class="forecast-container">
+          <div id="day1" class="wf-box">Day 1</div>
+          <div id="day2" class="wf-box">Day 2</div>
+          <div id="day3" class="wf-box">Day 3</div>
+          <div id="day4" class="wf-box">Day 4</div>
+          <div id="day5" class="wf-box">Day 5</div>
+        </div>
       </div>
     </div>
   </div>
@@ -48,4 +58,5 @@
   <!-- External JavaScript -->
   <script src="index.js" charset="utf-8"></script>
 </body>
+
 </html>
